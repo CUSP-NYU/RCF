@@ -2,14 +2,14 @@
 
 CUSP RCF is a shared resource for CUSP researchers, faculty, and students; NYC agencies; and citizens interested in using data in a secure environment for urban research and policy. It is a Safe Data Environment providing a suite of powerful tools and services so researchers can collaboratively work in a seamless and reproducible manner, while at the same time protecting data privacy. 
 
-Researchers have full control of their data and workspace. As data providers, they are responsible for the privacy and confidentiality of their data. They are required, however, to follow the data policies baseline recommended and required by [NYU Policy on Responsible Use of NYU Computers and Data](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/responsible-use-of-nyu-computers-and-data-policy-on.html).
+Researchers have full control of their data and workspace. As data providers, they are responsible for the privacy and confidentiality of their data. They must follow the data policies baseline recommended and required by [NYU Policy on Responsible Use of NYU Computers and Data](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/responsible-use-of-nyu-computers-and-data-policy-on.html).
 
 CUSP RCF is a perfect environment to host student assignments, group projects, and capstone projects for the reasons mentioned above. Each capstone group will share a project workspace and run code against the project data using all of the available tools and platforms.
 
 ### RCF Features and Resources
-The CUSP RCF account enable access to resources including:
+The CUSP RCF account enables access to resources including:
 
-* JupyterHub application, home folders, shared project folders, and more
+* JupyterHub applications, home folders, shared project folders, and more
 * Secure file transfer via SFTP
 * Secure SSH access via a gateway with X11 forwarding capability (CLI or GUI), or via tunneling to a protected multi-user Linux remote desktop
 * Multi-user Windows remote desktop environments, which are fully integrated with their respective systems
@@ -17,7 +17,7 @@ The CUSP RCF account enable access to resources including:
 * Analytical software such as MATLAB, RStudio, QGIS, and others
 * Powerful computing resources (1TB of RAM and 500TB of storage)
 * Personal home directories, temporary scratch directories, and project-specific workspaces  
-* Ability to request a customize VMs for specific projects (subject to approval) 
+* Ability to request a customized Virtual Machine (VM) for specific projects (subject to approval) 
 
 
 ### About this document
@@ -39,7 +39,7 @@ This document includes four sections containing information about:
   
 # Creating a Login Credential for the RCF Environment
 
-CUSP students should register using a CUSP ID, which is the same as their [NYU NetID](https://www.nyu.edu/life/information-technology/accounts-and-access/identity-and-accounts/netid-and-password.html). Please note that the CUSP ID password is different from NYU NetID password.
+CUSP students should register using a CUSP ID, which is the same as their [NYU NetID](https://www.nyu.edu/life/information-technology/accounts-and-access/identity-and-accounts/netid-and-password.html). Please note that the CUSP ID password is different from the NYU NetID password.
 
 ### Students 
 To register for a CUSP account, please provide the following information to cusp.it@nyu.edu:
@@ -92,7 +92,7 @@ To access the CUSP RCF environment you can choose from one of three options:
 
 The [CUSP RCF Portal](https://serv.cusp.nyu.edu/dash_beta/#/) is a one-stop shop for all things related to the RCF. Simply log in with your CUSP credentials.
 
-From there, you can access all the tools available to you, including terminals and remote desktops (Linux and Windows). On the remote desktops, you can use software like ESRI ArcMap, QGIS, MS Office, MATLAB, and more.
+From there, you can access all tools available to you, including terminals and remote desktops (Linux and Windows). On the remote desktops, you can use software like ESRI ArcMap, QGIS, MS Office, MATLAB, and more.
 
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/CUSP-RCF-Portal.png" alt="CUSP RCF Portal" width="300">
@@ -128,7 +128,7 @@ sftp  <YOUR_CUSP_ID>@staging.cusp.nyu.edu
 ```
 The data will be transferred to your home folder. From there, you can move or copy it into your project workspace for further work or share it with your collaborators.
 
-### JupyterLab interface
+### JupyterLab Interface
 
 You can also upload small files directly through the JupyterLab interface. Use the upload button (represented by an arrow icon) to select and upload files to your desired location within JupyterLab.
 
