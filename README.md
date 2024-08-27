@@ -24,7 +24,7 @@ The CUSP RCF account enable access to resources including:
 
 This document includes four sections containing information about:
 
- * [Creating a Login Credential for the RCF Environment](https://github.com/CUSP-NYU/RCF#creating-a-login-credential-for-the-rcf-environment)
+ * [Creating a Login Credential for the RCF Environment](#creating-a-login-credential-for-the-rcf-environment)
    * [Students](https://github.com/CUSP-NYU/RCF#students)
    * [Capstone Sponsors and Team Leaders](https://github.com/CUSP-NYU/RCF#capstone-sponsors-and-team-leaders)
  * [Accessing the CUSP RCF Environment](https://github.com/CUSP-NYU/RCF#accessing-the-cusp-rcf-environment)
