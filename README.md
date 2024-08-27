@@ -29,7 +29,7 @@ This document includes four sections containing information about:
    * [Capstone Sponsors and Team Leaders](#capstone-sponsors-and-team-leaders)
  * [Accessing the CUSP RCF Environment](#accessing-the-cusp-rcf-environment)
    * [SSH](#ssh)
-   * [CUSP RCF Portal](#cusp-rcf-portal) ***(currently inaccessible due to an upgrade)***
+   * [CUSP RCF Portal](#cusp-rcf-portal) ***(temporarily inaccessible due to an upgrade)***
    * [CUSP JupyterHub Portal](#cusp-jupyterhub-portal)
  * [Data Transfer](#data-transfer)
  * [Project Workspace Structure](#project-workspace-structure)
@@ -88,7 +88,7 @@ To access the CUSP RCF environment you can choose from one of three options:
 
 ### CUSP RCF Portal 
 
-***The CUSP RCF Portal is currently inaccessible due to an upgrade; in the meantime, please access the CUSP RCF environment via SSH or the CUSP JupyterHub Portal.***
+***The CUSP RCF Portal is temporarily inaccessible due to an upgrade; please access the CUSP RCF environment via SSH or the CUSP JupyterHub Portal in the meantime.***
 
 The [CUSP RCF Portal](https://serv.cusp.nyu.edu/dash_beta/#/) is a one-stop shop for all things related to the RCF. Simply log in with your CUSP credentials.
 
