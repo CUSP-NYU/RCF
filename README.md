@@ -25,14 +25,14 @@ The CUSP RCF account enable access to resources including:
 This document includes four sections containing information about:
 
  * [Creating a Login Credential for the RCF Environment](#creating-a-login-credential-for-the-rcf-environment)
-   * [Students](https://github.com/CUSP-NYU/RCF#students)
-   * [Capstone Sponsors and Team Leaders](https://github.com/CUSP-NYU/RCF#capstone-sponsors-and-team-leaders)
- * [Accessing the CUSP RCF Environment](https://github.com/CUSP-NYU/RCF#accessing-the-cusp-rcf-environment)
+   * [Students](#students)
+   * [Capstone Sponsors and Team Leaders](#capstone-sponsors-and-team-leaders)
+ * [Accessing the CUSP RCF Environment](#accessing-the-cusp-rcf-environment)
    * [SSH](#ssh)
-   * [CUSP RCF Portal](https://github.com/CUSP-NYU/RCF#cusp-rcf-portal) ***(currently inaccessible due to an upgrade)***
-   * [JupyterHub](https://github.com/CUSP-NYU/RCF#jupyterhub)
- * [Data Transfer](https://github.com/CUSP-NYU/RCF#data-transfer)
- * [Project Workspace Structure](https://github.com/CUSP-NYU/RCF#project-workspace-structure)
+   * [CUSP RCF Portal](#cusp-rcf-portal) ***(currently inaccessible due to an upgrade)***
+   * [JupyterHub](#jupyterhub)
+ * [Data Transfer](#data-transfer)
+ * [Project Workspace Structure](#project-workspace-structure)
   
 
   
@@ -65,9 +65,9 @@ To register for a CUSP account, please provide the following information to cusp
 
 To access the CUSP RCF environment you can choose from one of three options:
 
- * [SSH](https://github.com/CUSP-NYU/RCF#ssh)
- * [CUSP RCF Portal](https://github.com/CUSP-NYU/RCF#cusp-rcf-portal) ***(currently inaccessible due to an upgrade)***
- * [CUSP JupyterHub Portal](https://github.com/CUSP-NYU/RCF#cusp-jupyterhub-portal)
+ * [SSH](#ssh)
+ * [CUSP RCF Portal](#cusp-rcf-portal) ***(currently inaccessible due to an upgrade)***
+ * [CUSP JupyterHub Portal](#cusp-jupyterhub-portal)
 
 
 ### SSH
@@ -114,8 +114,8 @@ The image above shows the classic view of the JupyterHub interface. You may also
 # Data Transfer
 
 There are two ways to transfer data, code, and documentation to the RCF large server for analysis and data sharing:
- * [Command Line Secure File Transfer](https://github.com/CUSP-NYU/RCF#command-line-secure-file-transfer)
- * [JupyterLab interface](https://github.com/CUSP-NYU/RCF#jupyterlab-interface)
+ * [Command Line Secure File Transfer](#command-line-secure-file-transfer)
+ * [JupyterLab interface](#jupyterlab-interface)
 
 ### Command Line Secure File Transfer
 
@@ -134,7 +134,7 @@ You can create a new Jupyter Notebook or open a terminal by clicking the "New" b
 
 While there are system-wide kernels available, we recommend creating your own kernels to have control over the packages and libraries you use. Below is a quick guide to creating your own kernel.
 
-From a terminal window or after SSHing into the notebook server via the gateway mentioned in [Accessing the CUSP RCF Environment](https://github.com/CUSP-NYU/RCF#accessing-the-cusp-rcf-environment), follow these steps:
+From a terminal window or after SSHing into the notebook server via the gateway mentioned in [Accessing the CUSP RCF Environment](#accessing-the-cusp-rcf-environment), follow these steps:
 
 1. SSH into the gateway server
     ```
