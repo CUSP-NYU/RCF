@@ -30,7 +30,7 @@ This document includes four sections containing information about:
  * [Accessing the CUSP RCF Environment](#accessing-the-cusp-rcf-environment)
    * [SSH](#ssh)
    * [CUSP RCF Portal](#cusp-rcf-portal) ***(currently inaccessible due to an upgrade)***
-   * [JupyterHub](#jupyterhub)
+   * [CUSP JupyterHub Portal](#cusp-jupyterhub-portal)
  * [Data Transfer](#data-transfer)
  * [Project Workspace Structure](#project-workspace-structure)
   
@@ -86,9 +86,11 @@ To access the CUSP RCF environment you can choose from one of three options:
   ```
 
 
-### CUSP RCF Portal (currently inaccessible due to an upgrade)
+### CUSP RCF Portal 
 
-The [CUSP RCF Portal](https://serv.cusp.nyu.edu/dash_beta/#/) is a one-stop shop for all things related to the RCF. Simply log in with your CUSP credentials. 
+***The CUSP RCF Portal is currently inaccessible due to an upgrade; in the meantime, please access the CUSP RCF environment via SSH or the CUSP JupyterHub Portal.***
+
+The [CUSP RCF Portal](https://serv.cusp.nyu.edu/dash_beta/#/) is a one-stop shop for all things related to the RCF. Simply log in with your CUSP credentials.
 
 From there, you can access all the tools available to you, including terminals and remote desktops (Linux and Windows). On the remote desktops, you can use software like ESRI ArcMap, QGIS, MS Office, MATLAB, and more.
 
