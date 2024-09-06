@@ -152,32 +152,31 @@ B. After entering your credentials, SSH into the internal server "notebook."
   ssh notebook
   ```
 
-
-
 Step 1: Create a new conda environment ( example used below is named myenv and the python version is 3.10 )
-
-conda create -n myenv python=3.10
-
-conda activate myenv
+  ```
+  conda create -n myenv python=3.10
+  conda activate myenv
+  ```
 
 Step 2: Install packages Install any packages you need, e.g., the packages below are examples .
-
-conda install pytorch torchvision torchaudio -c pytorch
-
-conda install -c huggingface transformers
-
-conda install -c conda-forge scikit-learn pandas
-
+  ```
+  conda install pytorch torchvision torchaudio -c pytorch
+  conda install -c huggingface transformers
+  conda install -c conda-forge scikit-learn pandas
+  ```
 Step 3: Install and activate ipykernel conda install -c conda-forge ipykernel
-
-python -m ipykernel install --user --name=myenv
+  ```
+  python -m ipykernel install --user --name=myenv
+  ```
 
 Done! You can now select your new kernel when running your notebook.
 
 Run conda deactivate to deactivate your environement and conda activate myenv to bring it back up.
 
-To remove an environment: conda env remove — name myenv
-
+To remove an environment: 
+  ```
+  conda env remove — name myenv
+  ```
 
 
 # Project Workspace Structure 
