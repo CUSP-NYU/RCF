@@ -100,7 +100,7 @@ From there, you can access all tools available to you, including terminals and r
 
 ### CUSP JupyterHub Portal
 
-Directly access the CUSP JupyterHub portal by navigating to [this link](https://notebook.cusp.nyu.edu/) in your browser. Make sure you are on the NYU network or connected via the [NYU Virtual Private Network (VPN)](https://www.nyu.edu/life/information-technology/infrastructure/network-services/vpn.html), and then log in with your credentials.
+Directly access the CUSP JupyterHub portal by navigating to [this link](https://notebook.cusp.nyu.edu/) in your browser. , and then log in with your credentials.
 
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/JupyterHub-login.png" alt="JupyterHub Login Interface" width="300">
@@ -125,9 +125,13 @@ To transfer large files, you can use the staging server with any secure transfer
 
 ```
 sftp  <YOUR_CUSP_ID>@staging.cusp.nyu.edu
+you will be prompt with the following
+sftp>
+to learn about what usable comamnd you can type ?  ,  example : ls ( to list the file in you homefolder)  , put (to put file from you current computer into the remote computer in your home folder)
 ```
-The data will be transferred to your home folder. From there, you can move or copy it into your project workspace for further work or share it with your collaborators.
+The data will be transferred to your home folder. From there, you can move or copy it into your project workspace (the project workspace location is based on the project shortname in the form project-<shortname>) for further work or share it with your collaborators.
 
+stfp is a commadn line inteface from a MAC or linux machine , you can also use any GUI of your choice for example  : MacOS (cyberduck) and for windows (winscp) 
 ### JupyterLab Interface
 
 You can also upload small files directly through the JupyterLab interface. Use the upload button (represented by an arrow icon) to select and upload files to your desired location within JupyterLab.
@@ -138,50 +142,43 @@ While there are system-wide kernels available, we recommend creating your own ke
 
 From a terminal window or after SSHing into the notebook server via the gateway mentioned in [Accessing the CUSP RCF Environment](#accessing-the-cusp-rcf-environment), follow these steps:
 
-1. SSH into the gateway server
+a. SSH into the gateway server
     ```
     ssh <YOUR_CUSP_ID>@gw.cusp.nyu.edu
     ```
 
-3. After entering your credentials, SSH into the internal server "notebook":
+b. After entering your credentials, SSH into the internal server "notebook":
     ```
     ssh notebook
     ```
 
-4. After you are logged into the "notebook" server, create and register your Conda environment in JupyterHub by initializing Conda (required) to set up Conda for your user:
-    ```
-    conda init
-    ```
+Step 1: Create a new conda environment ( example used below is named myenv and the python version is 3.10 ) 
+conda create -n myenv python=3.10
 
-5. Create a specific Conda environment named MyP3.10 with Python 3.10:
-    ```
-    conda create --name MyP3.10 python=3.10
-    ```
+conda activate myenv
 
-6. Activate your new environment:
-    ```
-    source activate MyP3.10
-    ```
+Step 2: Install packages
+Install any packages you need, e.g., the packages below are examples .
 
-7. Install Jupyter and ipykernel to register the environment with JupyterHub:
-    ```
-    pip install jupyter
-    ```
+conda install pytorch torchvision torchaudio -c pytorch
 
-8. Add the environment to JupyterHub:
-    ```
-    ipython kernel install --name "MyP3.10" --user
+conda install -c huggingface transformers
+
+conda install -c conda-forge scikit-learn pandas
+
+Step 3: Install and activate ipykernel
+conda install -c conda-forge ipykernel
+
+python -m ipykernel install --user --name=myenv
+
+Done! You can now select your new kernel when running your notebook.
+
+Run conda deactivate to deactivate your environement and conda activate myenv to bring it back up.
+
+To remove an environment: conda env remove — name myenv
+
     ```
     
-9. Verify if the kernel is present by logging into the [CUSP JupyterHub portal](https://notebook.cusp.nyu.edu).
-
-10. To add packages to your environment, ensure it is activated and use pip or conda to install the desired packages:
-
-    ```
-    source activate MyP3.10
-    pip install <package_name>
-    # or
-    conda install <package_name>
     ```
 
 
