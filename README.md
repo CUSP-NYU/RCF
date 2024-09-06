@@ -39,15 +39,15 @@ This document includes four sections containing information about:
   
 # Creating a Login Credential for the RCF Environment
 
+### Students 
+
 CUSP students should register using a CUSP ID, which is the same as their [NYU NetID](https://www.nyu.edu/life/information-technology/accounts-and-access/identity-and-accounts/netid-and-password.html). Please note that the CUSP ID password is different from the NYU NetID password.
 
-### Students 
 To register for a CUSP account, please provide the following information to cusp.it@nyu.edu:
 
 * Full name 
 * Email address
 * NYU NetID
-* CUSP sponsor
 
 ### Capstone Sponsors and Team Leaders
 To register for a CUSP account, please provide the following information to cusp.it@nyu.edu:
@@ -125,7 +125,7 @@ To transfer large files, you can use the staging server with any secure transfer
 
 ```
 sftp  <YOUR_CUSP_ID>@staging.cusp.nyu.edu
-you will be prompt with the following
+you will be prompted with the following
 sftp>
 to learn about what usable comamnd you can type ?  ,  example : ls ( to list the file in you homefolder)  , put (to put file from you current computer into the remote computer in your home folder)
 ```
@@ -142,15 +142,15 @@ While there are system-wide kernels available, we recommend creating your own ke
 
 From a terminal window or after SSHing into the notebook server via the gateway mentioned in [Accessing the CUSP RCF Environment](#accessing-the-cusp-rcf-environment), follow these steps:
 
-a. SSH into the gateway server
-    ```
-    ssh <YOUR_CUSP_ID>@gw.cusp.nyu.edu
-    ```
+A. SSH into the gateway server
+   ```
+   ssh <YOUR_CUSP_ID>@gw.cusp.nyu.edu
+   ```
 
-b. After entering your credentials, SSH into the internal server "notebook":
-    ```
-    ssh notebook
-    ```
+B. After entering your credentials, SSH into the internal server "notebook."
+  ```
+  ssh notebook
+  ```
 
 
 
