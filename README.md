@@ -125,13 +125,21 @@ To transfer large files, you can use the staging server with any secure transfer
 
 ```
 sftp  <YOUR_CUSP_ID>@staging.cusp.nyu.edu
-you will be prompted with the following
-sftp>
-to learn about what usable comamnd you can type ?  ,  example : ls ( to list the file in you homefolder)  , put (to put file from you current computer into the remote computer in your home folder)
 ```
+you will be prompted with the following
+```
+sftp>
+```
+To learn about what usable comamnd you can type 
+```
+?
+```
+(Example : ls ( to list the file in you homefolder) , put (to put file from you current computer into the remote computer in your home folder)
+
 The data will be transferred to your home folder. From there, you can move or copy it into your project workspace (the project workspace location is based on the project shortname in the form project-<shortname>) for further work or share it with your collaborators.
 
 stfp is a commadn line inteface from a MAC or linux machine , you can also use any GUI of your choice for example  : MacOS (cyberduck) and for windows (winscp) 
+
 ### JupyterLab Interface
 
 You can also upload small files directly through the JupyterLab interface. Use the upload button (represented by an arrow icon) to select and upload files to your desired location within JupyterLab.
