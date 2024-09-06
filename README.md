@@ -153,6 +153,7 @@ b. After entering your credentials, SSH into the internal server "notebook":
     ```
 
 Step 1: Create a new conda environment ( example used below is named myenv and the python version is 3.10 ) 
+
 conda create -n myenv python=3.10
 
 conda activate myenv
