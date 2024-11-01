@@ -86,11 +86,9 @@ To access the CUSP RCF environment you can choose from one of three options:
   ```
 
 
-### CUSP RCF Portal 
+### CUSP RCF Dashboard  
 
-***The CUSP RCF Portal is temporarily inaccessible due to an upgrade; please access the CUSP RCF environment via SSH or the CUSP JupyterHub Portal in the meantime.***
-
-The [CUSP RCF Portal](https://serv.cusp.nyu.edu/dash_beta/#/) is a one-stop shop for all things related to the RCF. Simply log in with your CUSP credentials.
+The [CUSP RCF Portal](https://datahub.cusp.nyu.edu) is a one-stop shop for all things related to the RCF. Simply log in with your CUSP credentials.
 
 From there, you can access all tools available to you, including terminals and remote desktops (Linux and Windows). On the remote desktops, you can use software like ESRI ArcMap, QGIS, MS Office, MATLAB, and more.
 
@@ -202,16 +200,16 @@ The root directory to the project workspace is:
 The structure of the workspace folder is as follows:
 ```
 ./
-├── datamarts/
-├── export/
+├── datamarts/                 # Read only data : provided by the project data owner, The data owner can upload data in this location with the help of cusp.it@nyu.edu. team can read and use this data
+├── export/                    # Read only exportable if needed (request to be sent to cusp.it@nyu.edu)
 └── workspace/
-    ├── <YOUR_CUSP_ID>/        # Individual team member's folders for working, testing, and experimenting. Others do not have access.
-    ├── share/                 # Shared folder storing data, working scripts, documentation, and official project outputs.
-    │   ├── data/              # Raw data; DO NOT MODIFY or REMOVE files.
-    │   │   └── CUSP/
+    |   ├── share/             # Shared folder storing data, working scripts, documentation, and official project outputs.
+    │   ├── data/              # Shareable data
+    │   │   └── CUSP/          # Data Related to CUSP projects
     │   ├── documentation/     # Documents, articles, technical documentation, etc.
     │   │   └── articles/
     │   ├── figures/           # Figures for presentations, publishing, etc.
     │   ├── output/            # Processed data for analysis.
     │   └── scripts/           # Working scripts intended to be shared with the team.
 ```
+Note : The tree structure below share folder is only a suggestion , Team can create their own structure 
