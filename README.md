@@ -98,13 +98,15 @@ From there, you can access all tools available to you, including terminals and r
 
 ### CUSP JupyterHub Portal
 
-Directly access the CUSP JupyterHub portal by navigating to [this link](https://notebook.cusp.nyu.edu/) in your browser. , and then log in with your credentials.
+Directly access the CUSP JupyterHub portals , RCF has two large servers with the jupyterlab application installed on them in order to balance the work load, you can access either of them  following the links below:
+[notebook1](https://notebook.cusp.nyu.edu/) in your browser. , and then log in with your credentials.
+[notebook2](https://jupyterhub.cusp.nyu.edu/) in your browser. , and then log in with your credentials.
 
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/JupyterHub-login.png" alt="JupyterHub Login Interface" width="300">
 </p>
 
-The image above shows the classic view of the JupyterHub interface. You may also encounter the JupyterLab interface.
+The image above shows the JupyterLab interface.
 
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/JupyterLab-interface.png" alt="JupyterLab Interface" width="500">
