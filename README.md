@@ -66,7 +66,7 @@ To register for a CUSP account, please provide the following information to cusp
 To access the CUSP RCF environment you can choose from one of three options:
 
  * [SSH](#ssh)
- * [CUSP RCF Portal](#cusp-rcf-portal) ***(currently inaccessible due to an upgrade)***
+ * [CUSP RCF Dashboard](#cusp-rcf-portal) 
  * [CUSP JupyterHub Portal](#cusp-jupyterhub-portal)
 
 
