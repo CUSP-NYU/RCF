@@ -49,7 +49,7 @@ To register for a CUSP account, please provide the following information to cusp
 * Email address
 * NYU NetID
 
-### Capstone Sponsors and Team Leaders
+### Capstone Sponsors or Research Team Leaders
 To register for a CUSP account, please provide the following information to cusp.it@nyu.edu:
 
 * Full name 
