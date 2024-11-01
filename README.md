@@ -26,10 +26,10 @@ This document includes four sections containing information about:
 
  * [Creating a Login Credential for the RCF Environment](#creating-a-login-credential-for-the-rcf-environment)
    * [Students](#students)
-   * [Capstone Sponsors and Team Leaders](#capstone-sponsors-and-team-leaders)
+   * [Capstone Sponsors or Research Team Leaders](#capstone-sponsors-and-team-leaders)
  * [Accessing the CUSP RCF Environment](#accessing-the-cusp-rcf-environment)
    * [SSH](#ssh)
-   * [CUSP RCF Portal](#cusp-rcf-portal) ***(temporarily inaccessible due to an upgrade)***
+   * [CUSP RCF Dashboard](#cusp-rcf-portal) 
    * [CUSP JupyterHub Portal](#cusp-jupyterhub-portal)
  * [Data Transfer](#data-transfer)
  * [Project Workspace Structure](#project-workspace-structure)
