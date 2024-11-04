@@ -82,9 +82,11 @@ To access the CUSP RCF environment you can choose from one of three options:
   ```
 3. Next, SSH into the notebook server. Please note that 'notebook' is the name of the large Ubuntu server mentioned above. This brings you to your personal home directory.
   ```
-  ssh notebook   
+  ssh notebook  , 
   ```
-
+  ssh notebook2 , if you desire to work on the ohter node
+  
+  ```
 
 ### CUSP RCF Dashboard  
 
@@ -99,10 +101,14 @@ From there, you can access all tools available to you, including terminals and r
 ### CUSP JupyterHub Portal
 
 Directly access the CUSP JupyterHub portals , RCF has two large servers with the jupyterlab application installed on them in order to balance the work load, you can access either of them  following the links below:
+to learn about Jupyterlab Applciation go to this [tutorial] (https://jupyterlab.readthedocs.io/en/latest/)
 
 [notebook1](https://notebook.cusp.nyu.edu/) in your browser. , and then log in with your credentials.
 
 [notebook2](https://jupyterhub.cusp.nyu.edu/) in your browser. , and then log in with your credentials.
+
+After authenticating with your CUSP credentials, You can create a new Jupyter Notebook or open a terminal by clicking the "New" button and selecting the desired option.
+Please check below intructions on how to create your own conda environement and register a jupyter kernel  with Jupyterlab.
 
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/JupyterHub-login.png" alt="JupyterHub Login Interface" width="300">
@@ -142,11 +148,13 @@ The data will be transferred to your home folder. From there, you can move or co
 
 stfp is a commadn line inteface from a MAC or linux machine , you can also use any GUI of your choice for example  : MacOS (cyberduck) and for windows (winscp) 
 
-### JupyterLab Interface
+### JupyterLab Interface (file upload)
 
 You can also upload small files directly through the JupyterLab interface. Use the upload button (represented by an arrow icon) to select and upload files to your desired location within JupyterLab.
 
-You can create a new Jupyter Notebook or open a terminal by clicking the "New" button and selecting the desired option.
+
+
+### creation of your own conda vitual environement and Jupyterlab Kernels  
 
 While there are system-wide kernels available, we recommend creating your own kernels to have control over the packages and libraries you use. Below is a quick guide to creating your own kernel.
 
@@ -157,9 +165,9 @@ A. SSH into the gateway server
    ssh <YOUR_CUSP_ID>@gw.cusp.nyu.edu
    ```
 
-B. After entering your credentials, SSH into the internal server "notebook."
+B. After entering your credentials, SSH into the internal servers 
   ```
-  ssh notebook
+  ssh notebook   or ssh notebook2  
   ```
 
 Step 1: Create a new conda environment (the example used below is named myenv and the python version is 3.10 )
