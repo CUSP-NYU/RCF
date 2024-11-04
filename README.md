@@ -82,11 +82,9 @@ To access the CUSP RCF environment you can choose from one of three options:
   ```
 3. Next, SSH into the notebook server. Please note that 'notebook' is the name of the large Ubuntu server mentioned above. This brings you to your personal home directory.
   ```
-  ssh notebook  , 
+  ssh notebook   or  ssh notebook2 (if you desire to work on the second node)
   ```
-  ssh notebook2 , if you desire to work on the ohter node
   
-  ```
 
 ### CUSP RCF Dashboard  
 
@@ -224,4 +222,4 @@ The structure of the workspace folder is as follows:
     │   ├── output/            # Processed data for analysis.
     │   └── scripts/           # Working scripts intended to be shared with the team.
 ```
-Note : The tree structure below share folder is only a suggestion , Team can create their own structure 
+Note : The tree structure above show a share folder with a subfolders, it is only a suggestion , Team can create their own structure 
