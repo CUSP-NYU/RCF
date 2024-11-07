@@ -28,7 +28,7 @@ This document includes four sections containing information about:
    * [Students](#students)
    * [Capstone Sponsors or Research Team Leaders](#capstone-sponsors-and-team-leaders)
  * [Accessing the CUSP RCF Environment](#accessing-the-cusp-rcf-environment)
-   * [SSH](#ssh)
+   * [Secure Shell (ssh)](#ssh)
    * [CUSP RCF Dashboard](#cusp-rcf-portal) 
    * [CUSP JupyterHub Portal](#cusp-jupyterhub-portal)
  * [Data Transfer](#data-transfer)
@@ -70,7 +70,7 @@ To access the CUSP RCF environment you can choose from one of three options:
  * [CUSP JupyterHub Portal](#cusp-jupyterhub-portal)
 
 
-### SSH
+### Secure Shell (ssh)
 
 1. Use a command line tool of your choice to directly SSH into the server with your credentials.
   ```
