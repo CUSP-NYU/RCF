@@ -113,7 +113,7 @@ you will be prompted with the following
 ```
 sftp>
 ```
-To learn about what usable comamnd you can type 
+To learn about what available internal command to sftp tool  you can type 
 ```
 ?
 ```
