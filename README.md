@@ -142,7 +142,7 @@ A. SSH into the gateway server
 
 B. After entering your credentials, SSH into the internal servers 
   ```
-  ssh notebook   or ssh notebook2  
+  ssh notebook   or ssh notebook2  or notebook3
   ```
 
 Step 1: Create a new conda environment (the example used below is named myenv and the python version is 3.10 )
