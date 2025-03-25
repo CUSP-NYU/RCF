@@ -121,7 +121,7 @@ To learn about what available internal command to sftp tool  you can type
 
 The data will be transferred to your home folder. From there, you can move or copy it into your project workspace (the project workspace location is based on the project shortname in the form project-<shortname>) for further work or share it with your collaborators.
 
-stfp is a commadn line inteface from a MAC or linux machine , you can also use any GUI of your choice for example  : MacOS (cyberduck) and for windows (winscp) 
+sftp is a command line interface from a MAC or linux machine , you can also use any GUI of your choice for example  : MacOS (cyberduck) and for Windows (winscp) 
 
 ### JupyterLab Interface (file upload)
 
