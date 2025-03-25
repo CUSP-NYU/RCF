@@ -1,10 +1,4 @@
-# CUSP Research Computing Facility (RCF)
-
-CUSP RCF is a shared resource for CUSP researchers, faculty, and students; NYC agencies; and citizens interested in using data in a secure environment for urban research and policy. It is a Safe Data Environment providing a suite of powerful tools and services so researchers can collaboratively work in a seamless and reproducible manner, while at the same time protecting data privacy. 
-
-Researchers have full control of their data and workspace. As data providers, they are responsible for the privacy and confidentiality of their data. They must follow the data policies baseline recommended and required by [NYU Policy on Responsible Use of NYU Computers and Data](https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/responsible-use-of-nyu-computers-and-data-policy-on.html).
-
-CUSP RCF is a perfect environment to host student assignments, group projects, and capstone projects for the reasons mentioned above. Each capstone group will share a project workspace and run code against the project data using all of the available tools and platforms.
+# CUSP Research Computing Facility (RCF) Tutorial and Guidance 
 
 ### RCF Features and Resources
 The CUSP RCF account enables access to resources including:
@@ -39,28 +33,7 @@ This document includes four sections containing information about:
   
 # Creating a Login Credential for the RCF Environment
 
-### Students 
-
-CUSP students should register using a CUSP ID, which is the same as their [NYU NetID](https://www.nyu.edu/life/information-technology/accounts-and-access/identity-and-accounts/netid-and-password.html). Please note that the CUSP ID password is different from the NYU NetID password.
-
-To register for a CUSP account, please provide the following information to cusp.it@nyu.edu:
-
-* Full name 
-* Email address
-* NYU NetID
-
-### Capstone Sponsors or Research Team Leaders
-To register for a CUSP account, please provide the following information to cusp.it@nyu.edu:
-
-* Full name 
-* Email address
-* NYU NetID or preferred username if you do not have a NYU NetID
-* Project lead
-* Names of all collaborators on the given project
-* Project name 
-* Data size (current and anticipated increases if applicable) 
-
-  
+All users — NYU faculty, students, and researchers as well as capstone sponsors and mentor from external agencies and companies — can request a login credential by filling out this Google Form (https://forms.gle/QLGxL68UFBgsun9RA).
 # Accessing the CUSP RCF Environment
 
 To access the CUSP RCF environment you can choose from one of three options:
