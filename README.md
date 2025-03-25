@@ -19,8 +19,6 @@ The CUSP RCF account enables access to resources including:
 This document includes four sections containing information about:
 
  * [Creating a Login Credential for the RCF Environment](#creating-a-login-credential-for-the-rcf-environment)
-   * [Students](#students)
-   * [Capstone Sponsors or Research Team Leaders](#capstone-sponsors-and-team-leaders)
  * [Accessing the CUSP RCF Environment](#accessing-the-cusp-rcf-environment)
    * [Secure Shell (ssh)](#ssh)
    * [CUSP RCF Dashboard](#cusp-rcf-portal) 
@@ -33,9 +31,8 @@ This document includes four sections containing information about:
   
 # Creating a Login Credential for the RCF Environment
 
-All users — NYU faculty, students, and researchers as well as capstone sponsors and mentor from external agencies and companies — can request a login credential by filling out this Google Form (https://forms.gle/QLGxL68UFBgsun9RA).
+All users — NYU faculty, students, and researchers as well as capstone sponsors and mentor from external agencies and companies — can request a login credential by filling out this [Google Form](https://forms.gle/QLGxL68UFBgsun9RA).
 # Accessing the CUSP RCF Environment
-
 To access the CUSP RCF environment you can choose from one of three options:
 
  * [Secure Shell (ssh)](#ssh)
@@ -53,9 +50,13 @@ To access the CUSP RCF environment you can choose from one of three options:
   ```
   password: <YOUR_CUSP_ID_PASSWORD>
   ```
-3. Next, SSH into the notebook server. Please note that 'notebook' is the name of the large Ubuntu server mentioned above. This brings you to your personal home directory.
+3. Next, SSH into the notebook servers. Please note that 'notebook , notebook2, notebook3 ' are the names of the large Ubuntu servers mentioned above. This brings you to your personal home directory, from there you can navigate to you shared team project workspace or work on you home folder 
   ```
-  ssh notebook   or  ssh notebook2 (if you desire to work on the second node)
+  ssh notebook
+or
+ ssh notebook2 (if you desire to work on the second node)
+or
+ ssh notebook3 (if you desire to work on the third node)
   ```
   
 
@@ -71,12 +72,15 @@ From there, you can access all tools available to you, including terminals and r
 
 ### CUSP JupyterHub Portal
 
-Directly access the CUSP JupyterHub portals , RCF has two large servers with the jupyterlab application installed on them in order to balance the work load, you can access either of them  following the links below:
+Directly access the CUSP JupyterHub portals , RCF has three large servers with the jupyterlab application installed on them in order to balance the work load, you can access either of them  following the links below:
 to learn about Jupyterlab Applciation go to this [tutorial] (https://jupyterlab.readthedocs.io/en/latest/)
 
 [notebook1](https://notebook.cusp.nyu.edu/) in your browser. , and then log in with your credentials.
 
 [notebook2](https://jupyterhub.cusp.nyu.edu/) in your browser. , and then log in with your credentials.
+
+[notebook3](https://notebook3.cusp.nyu.edu/) in your browser. , and then log in with your credentials.
+
 
 After authenticating with your CUSP credentials, You can create a new Jupyter Notebook or open a terminal by clicking the "New" button and selecting the desired option.
 Please check below intructions on how to create your own conda environement and register a jupyter kernel  with Jupyterlab.
