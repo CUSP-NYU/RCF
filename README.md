@@ -79,7 +79,7 @@ to learn about Jupyterlab Applciation go to this [tutorial](https://jupyterlab.r
 
 [notebook2](https://jupyterhub.cusp.nyu.edu/) in your browser. , and then log in with your credentials.
 
-[notebook3](https://notebook3.cusp.nyu.edu/) in your browser. , and then log in with your credentials.
+[notebook3](https://data.cusp.nyu.edu/) in your browser. , and then log in with your credentials.
 
 
 After authenticating with your CUSP credentials, You can create a new Jupyter Notebook or open a terminal by clicking the "New" button and selecting the desired option.
