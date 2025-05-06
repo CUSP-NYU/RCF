@@ -1,19 +1,19 @@
 # CUSP Research Computing Facility (RCF) Tutorial and Guidance 
 
+### 📌 This guide covers logging into and working in the **RCF**. Visit the **RCF** directly [here](https://serv.cusp.nyu.edu).
+
 ### RCF Features and Resources
-The CUSP RCF account enables access to resources including:
+The CUSP RCF account enables access to:
 
 * JupyterHub applications, home folders, shared project folders, and more
 * Secure file transfer via SFTP
 * Secure SSH access via a gateway with X11 forwarding capability (CLI or GUI), or via tunneling to a protected multi-user Linux and windows remote desktops
 * Multi-user Windows and Linux remote desktop environments, which are fully integrated with their respective systems
-* Analytical software such as MATLAB, RStudio, QGIS, Visual Studio Code (vscode) and others
+* Analytical software such as MATLAB, RStudio, QGIS, Visual Studio Code (VS Code) and others
 * Powerful computing resources (1TB of RAM and 500TB + of storage)
 * Personal home directories, temporary scratch directories, and project-specific workspaces  
-* Ability to request a customized Virtual Machine (VM) or physical for specific projects (subject to approval)
-
-  [Go Back to CUSP RCF Welcome page](https://serv.cusp.nyu.edu)
-
+* Ability to request a customized Virtual Machine (VM) or physical server for specific projects, subject to approval
+  
 
 ### About this document
 
@@ -21,24 +21,23 @@ This document includes four sections containing information about:
 
  * [Creating a Login Credential for the RCF Environment](#creating-a-login-credential-for-the-rcf-environment)
  * [Accessing the CUSP RCF Environment](#accessing-the-cusp-rcf-environment)
-   * [Secure Shell (ssh)](#ssh)
-   * [CUSP RCF Dashboard](#cusp-rcf-portal) 
-   * [CUSP JupyterHub Portal](#cusp-jupyterhub-portal)
+   * [Secure Shell (ssh)](#secure-shell-ssh)
+   * [CUSP RCF Dashboard](#cusp-rcf-dashboard) 
+   * [CUSP JupyterHub Portal](#jupyterlab-interface-file-upload)
  * [Data Transfer](#data-transfer)
  * [Project Workspace Structure](#project-workspace-structure)
-  
 
-  
   
 # Creating a Login Credential for the RCF Environment
 
 All users — NYU faculty, students, and researchers as well as capstone sponsors and mentor from external agencies and companies — can request a login credential by filling out this [Google Form](https://forms.gle/QLGxL68UFBgsun9RA).
+
 # Accessing the CUSP RCF Environment
 To access the CUSP RCF environment you can choose from one of three options:
 
- * [Secure Shell (ssh)](#ssh)
- * [CUSP RCF Dashboard](#cusp-rcf-portal) 
- * [CUSP JupyterHub Portal](#cusp-jupyterhub-portal)
+ * [Secure Shell (ssh)](#secure-shell-ssh)
+ * [CUSP RCF Dashboard](#cusp-rcf-dashboard) 
+ * [CUSP JupyterHub Portal](#jupyterlab-interface-file-upload)
 
 
 ### Secure Shell (ssh)
@@ -51,13 +50,18 @@ To access the CUSP RCF environment you can choose from one of three options:
   ```
   password: <YOUR_CUSP_ID_PASSWORD>
   ```
-3. Next, SSH into the notebook servers. Please note that 'notebook , notebook2, notebook3 ' are the names of the large Ubuntu servers mentioned above. This brings you to your personal home directory, from there you can navigate to you shared team project workspace or work on you home folder 
+3. Next, SSH into the notebook servers. You can access one of three available Ubuntu notebook servers by using SSH. The three servers are named: 
+- `notebook`
+- `notebook2`
+- `notebook3`
+Each server provides access to your personal home directory. From there, you can navigate to either a collaborative team workspace or continue working in your personal folder.
+
+Use **one of the following commands** to connect:
+
   ```
-  ssh notebook
-or
- ssh notebook2 (if you desire to work on the second node)
-or
- ssh notebook3 (if you desire to work on the third node)
+ssh notebook   # Connect to the first server
+ssh notebook2  # Connect to the second server
+ssh notebook3  # Connect to the third server
   ```
   
 
@@ -65,51 +69,91 @@ or
 
 The [CUSP RCF Dashboard](https://datahub.cusp.nyu.edu) is a one-stop shop for all things related to the RCF. Simply log in with your CUSP credentials.
 
-From there, you can access all tools available to you, including terminals and remote desktops (Linux and Windows). On the remote desktops, you can use software GUI like ESRI ArcMap, QGIS, MS Office, MATLAB, and more.
+Once logged in, you'll have access to a range of tools, including:
+- **Remote Desktops** (Linux & Windows)
+  Use pre-installed software such as:
+    - ESRI ArcGIS Desktop (ArcMap)
+    - QGIS
+    - Microsoft Office
+    - MATLAB
+    - ... and more.
+      
+- **Terminals**
+  Access command-line environments.
 
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/dashboard.png" alt="CUSP RCF dashboard" width="300">
 </p>
-Please see the pic below after you login with CUSP ID and Password,  user can click on a selection to access remote desktop sessions or Terminal secure sessions on RCF large servers  
+Once you log in with your **CUSP ID and password**, you'll see the Dashboard interface (see image below). 
+
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/dash_after_login.png" alt="Dashboard Main Session" width="300">
 </p>
-Below is a pic showing a Ubuntu remote desktop within CUSP RCF dashboard from there you can launch available IDE GUIs (applications), ssh sessions, and jupyterlabs on different RCF servers 
+
+From there, simply click on one of the available options to:
+- Launch a **Remote Desktop Session** (Linux or Windows)
+- Open a **Terminal (SSH) Session** on the RCF large servers
+  
+<p align="center">
+    <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/dash_after_login.png" alt="Dashboard Main Session" width="300">
+</p>
+Below is an image of an **Ubuntu Remote Desktop** accessed through the **CUSP RCF Dashboard**.
+
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/ubuntu_session.png" alt="Dashboard Main Session" width="300">
 </p>
-Below is a pic showing  a Windows remote desktop within CUSP RCF dashboard from there user can run available windows IDE GUIs, Microsoft softwares and jupyterlabs as well as  MAP a Network drive (CUSP homefolder) etc..
+
+From this desktop environment, you can:
+
+- Launch available **Integrated Development Environments (IDE)** 
+- Open **SSH sessions** to other RCF servers
+- Use **JupyterLab** on different RCF servers
+
+Below is an image of a **Windows Remote Desktop** accessed via the **CUSP RCF Dashboard**.
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/windows_session.png" alt="Dashboard Main Session" width="300">
 </p>
-Below is a pic showing a Ubuntu terminal session (CLI) on a notebook large server (same can be done on all other RCF large servers), this will allow user to run codes , troubleshoot using CLI. 
+From this environment, users can:
+- Run available **Windows-based IDEs**
+- Use **Microsoft software** such as Word, Excel, and PowerPoint  
+- Launch **JupyterLab** 
+- **Map a network drive** to access your CUSP home folder and shared directories
+
+Below is an image of a **Ubuntu Terminal Session (CLI)** running on a `notebook` large server.  
+You can launch similar sessions on any of the other **RCF large servers**.
+
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/terminal_session.png" alt="Dashboard Main Session" width="300">
 </p>
-                                         Note: A user can upload file by dragging and dropping it from the local desktop to the available above session on the browser, the file will be available on the user RCF home folder. 
+
+This command-line interface allows you to:
+- Run code 
+- Troubleshoot and manage files using Command Line Interface (CLI) tools  
+
+
+**Note:** You can upload files by simply **dragging and dropping** them from your local desktop into the active browser session. The uploaded file will appear in your **RCF home folder** automatically. 
 
 
 
 ### CUSP JupyterHub Portal
 
-Directly access the CUSP JupyterHub portals , RCF has three large servers with the jupyterlab application installed on them in order to balance the work load, you can access either of them  following the links below:
-to learn about Jupyterlab Applciation go to this [tutorial](https://jupyterlab.readthedocs.io/en/latest/)
+You can directly access **JupyterLab** via any of the three large servers below. These servers help distribute workloads and provide reliable performance. New to JupyterLab? Learn more in this [JupyterLab Tutorial](https://jupyterlab.readthedocs.io/en/latest/).
 
-[notebook1](https://notebook.cusp.nyu.edu/) in your browser. , and then log in with your credentials.
-
-[notebook2](https://jupyterhub.cusp.nyu.edu/) in your browser. , and then log in with your credentials.
-
-[notebook3](https://data.cusp.nyu.edu/) in your browser. , and then log in with your credentials.
+Choose any of the following links to open in your browser and log in using your **Login credentials**:
+- [notebook1](https://notebook.cusp.nyu.edu/) 
+- [notebook2](https://jupyterhub.cusp.nyu.edu/) 
+- [notebook3](https://data.cusp.nyu.edu/) 
 
 
-After authenticating with your CUSP credentials, You can create a new Jupyter Notebook or open a terminal by clicking the "New" button and selecting the desired option.
-Please check below intructions on how to create your own conda environement and register a jupyter kernel  with Jupyterlab.
+After logging in with your credentials, you can create a new **Jupyter Notebook** or open a **Terminal** by clicking the **"New"** button and selecting the desired option.
+
+Scroll below for instructions on how to create your own **conda environment** and register a **Jupyter kernel** within JupyterLab.
 
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/JupyterHub-login.png" alt="JupyterHub Login Interface" width="300">
 </p>
 
-The image above shows the JupyterLab interface.
+The image below displays the **JupyterLab** interface.
 
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/JupyterLab-interface.png" alt="JupyterLab Interface" width="500">
@@ -133,23 +177,27 @@ you will be prompted with the following
 ```
 sftp>
 ```
-To learn about what available internal command to sftp tool  you can type 
+In the `sftp` tool, you can view a list of available internal commands by typing:
 ```
 ?
 ```
-(Example : ls ( to list the file in you homefolder) , put (to put file from you current computer into the remote computer in your home folder)
+This will display a list of all the commands you can use within the `sftp` session. 
 
-The data will be transferred to your home folder. From there, you can move or copy it into your project workspace (the project workspace location is based on the project shortname in the form project-<shortname>) for further work or share it with your collaborators.
+**Example commands:**
+- `ls` — Lists the files in your home folder.
+- `put` — Uploads a file from your local computer to the remote server's home folder. From there, you can move or copy it into your project workspace (located at `project-<shortname>`) for further work or share it with your collaborators.
 
-sftp is a command line interface from a MAC or linux machine , you can also use any GUI of your choice for example  : MacOS (cyberduck) and for Windows (winscp) 
+`sftp` is a command-line interface typically used from a macOS or Linux machine. However, you can also use a Graphical User Interface (GUI) of your choice. For example:
+- **macOS**: Cyberduck  
+- **Windows**: WinSCP
 
-### JupyterLab Interface (file upload)
+### JupyterLab Interface (File Upload)
 
 You can also upload small files directly through the JupyterLab interface. Use the upload button (represented by an arrow icon) to select and upload files to your desired location within JupyterLab.
 
 
 
-### creation of your own conda vitual environement and Jupyterlab Kernels  
+### Creating Your Own Conda Virtual Environment and JupyterLab Kernels
 
 While there are system-wide kernels available, we recommend creating your own kernels to have control over the packages and libraries you use. Below is a quick guide to creating your own kernel.
 
@@ -160,36 +208,44 @@ A. SSH into the gateway server
    ssh <YOUR_CUSP_ID>@gw.cusp.nyu.edu
    ```
 
-B. After entering your credentials, SSH into the internal servers 
+B. After entering your credentials, use one of the following commands to SSH into the internal servers:
   ```
-  ssh notebook   or ssh notebook2  or notebook3
+ssh notebook # Connect to the first server
+ssh notebook2 # Connect to the second server
+ssh notebook3 # Connect to the third server
   ```
 
-Step 1: Create a new conda environment (the example used below is named myenv and the python version is 3.10 )
+Step 1: Create a new conda environment (in this example, named `myenv` with Python version 3.10)
   ```
   conda create -n myenv python=3.10
   conda activate myenv
   ```
 
-Step 2: Install any packages you need, e.g., the packages below are examples.
+Step 2: Install any packages you need. Below are some example package installations:
   ```
   conda install pytorch torchvision torchaudio -c pytorch
   conda install -c huggingface transformers
   conda install -c conda-forge scikit-learn pandas
   ```
-Step 3: Install and activate ipykernel 
+Step 3: Install and activate ipykernel by running the following commands:
   ```
   conda install -c conda-forge ipykernel
   python -m ipykernel install --user --name=myenv
   ```
 
-Done! You can now select your new kernel when running your notebook.
+Done! You can now select your newly created kernel when running your notebook.
 
-Run conda deactivate to deactivate your environment and conda activate myenv to bring it back up.
-
+To deactivate your environment, use:
+  ```
+  conda deactivate # Deactivate the current environment
+  ```
+To reactivate it, simply run:
+  ```
+  conda activate myenv # Reactivate the 'myenv' environment
+  ```
 To remove an environment: 
   ```
-  conda env remove — name myenv
+  conda env remove — name myenv # Remove the 'myenv' environment
   ```
 
 
