@@ -86,7 +86,7 @@ Below is a pic showing a Ubuntu terminal session (CLI) on a notebook large serve
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/terminal_session.png" alt="Dashboard Main Session" width="300">
 </p>
-                                         Note: A user can upload file by dragging and dropping  file from the local desktop to the available above session on the browser, the file will be available on the user RCF home folder 
+                                         Note: A user can upload file by dragging and dropping it from the local desktop to the available above session on the browser, the file will be available on the user RCF home folder. 
 
 
 
