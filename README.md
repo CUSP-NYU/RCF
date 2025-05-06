@@ -5,13 +5,12 @@ The CUSP RCF account enables access to resources including:
 
 * JupyterHub applications, home folders, shared project folders, and more
 * Secure file transfer via SFTP
-* Secure SSH access via a gateway with X11 forwarding capability (CLI or GUI), or via tunneling to a protected multi-user Linux remote desktop
-* Multi-user Windows remote desktop environments, which are fully integrated with their respective systems
-* Backup and restore capabilities with an enterprise-class backup system (IBM Spectrum Protector)
-* Analytical software such as MATLAB, RStudio, QGIS, and others
-* Powerful computing resources (1TB of RAM and 500TB of storage)
+* Secure SSH access via a gateway with X11 forwarding capability (CLI or GUI), or via tunneling to a protected multi-user Linux and windows remote desktops
+* Multi-user Windows and Linux remote desktop environments, which are fully integrated with their respective systems
+* Analytical software such as MATLAB, RStudio, QGIS, Visual Studio Code (vscode) and others
+* Powerful computing resources (1TB of RAM and 500TB + of storage)
 * Personal home directories, temporary scratch directories, and project-specific workspaces  
-* Ability to request a customized Virtual Machine (VM) for specific projects (subject to approval) 
+* Ability to request a customized Virtual Machine (VM) or physical for specific projects (subject to approval) 
 
 
 ### About this document
@@ -64,7 +63,7 @@ or
 
 The [CUSP RCF Portal](https://datahub.cusp.nyu.edu) is a one-stop shop for all things related to the RCF. Simply log in with your CUSP credentials.
 
-From there, you can access all tools available to you, including terminals and remote desktops (Linux and Windows). On the remote desktops, you can use software like ESRI ArcMap, QGIS, MS Office, MATLAB, and more.
+From there, you can access all tools available to you, including terminals and remote desktops (Linux and Windows). On the remote desktops, you can use software GUI like ESRI ArcMap, QGIS, MS Office, MATLAB, and more.
 
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/CUSP-RCF-Portal.png" alt="CUSP RCF Portal" width="300">
