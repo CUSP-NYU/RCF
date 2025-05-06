@@ -50,7 +50,9 @@ To access the CUSP RCF environment you can choose from one of three options:
   ```
   password: <YOUR_CUSP_ID_PASSWORD>
   ```
-3. Next, SSH into the notebook servers. You can access one of three available Ubuntu notebook servers by using SSH. The three servers are named: `notebook`, `notebook2`, and `notebook3`. Each server provides access to your personal home directory. From there, you can navigate to either a collaborative team workspace or continue working in your personal folder. Use **one of the following commands** to connect:
+3. Next, SSH into the notebook servers. You can access one of three available Ubuntu notebook servers by using SSH. The three servers are named: `notebook`, `notebook2`, and `notebook3`. Each server provides access to your personal home directory. From there, you can navigate to either a collaborative team workspace or continue working in your personal folder. 
+
+   Use **one of the following commands** to connect:
 
   ```
 ssh notebook   # Connect to the first server
