@@ -70,7 +70,7 @@ From there, you can access all tools available to you, including terminals and r
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/dashboard.png" alt="CUSP RCF dashboard" width="300">
 </p>
-Please see the pic after you login weith CUSP ID and Password 
+Please see the pic below after you login with CUSP ID and Password,  user can click on a selection to access remote desktop sessions or Terminal secure sessions on RCF large servers  
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/dash_after_login.png" alt="Dashboard Main Session" width="300">
 </p>
