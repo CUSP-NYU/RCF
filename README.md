@@ -68,7 +68,7 @@ The [CUSP RCF Dashboard](https://datahub.cusp.nyu.edu) is a one-stop shop for al
 From there, you can access all tools available to you, including terminals and remote desktops (Linux and Windows). On the remote desktops, you can use software GUI like ESRI ArcMap, QGIS, MS Office, MATLAB, and more.
 
 <p align="center">
-    <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/CUSP-RCF-Portal.png" alt="CUSP RCF Portal" width="300">
+    <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/dashboard.png" alt="CUSP RCF dashboard" width="300">
 </p>
 
 ### CUSP JupyterHub Portal
