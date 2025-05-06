@@ -15,7 +15,7 @@ The CUSP RCF account enables access to:
 * Ability to request a customized Virtual Machine (VM) or physical server for specific projects, subject to approval
   
 
-### About this document
+### About this Document
 
 This document includes four sections containing information about:
 
@@ -50,13 +50,7 @@ To access the CUSP RCF environment you can choose from one of three options:
   ```
   password: <YOUR_CUSP_ID_PASSWORD>
   ```
-3. Next, SSH into the notebook servers. You can access one of three available Ubuntu notebook servers by using SSH. The three servers are named: 
-- `notebook`
-- `notebook2`
-- `notebook3`
-Each server provides access to your personal home directory. From there, you can navigate to either a collaborative team workspace or continue working in your personal folder.
-
-Use **one of the following commands** to connect:
+3. Next, SSH into the notebook servers. You can access one of three available Ubuntu notebook servers by using SSH. The three servers are named: `notebook`, `notebook2`, and `notebook3`. Each server provides access to your personal home directory. From there, you can navigate to either a collaborative team workspace or continue working in your personal folder. Use **one of the following commands** to connect:
 
   ```
 ssh notebook   # Connect to the first server
@@ -70,7 +64,7 @@ ssh notebook3  # Connect to the third server
 The [CUSP RCF Dashboard](https://datahub.cusp.nyu.edu) is a one-stop shop for all things related to the RCF. Simply log in with your CUSP credentials.
 
 Once logged in, you'll have access to a range of tools, including:
-- **Remote Desktops** (Linux & Windows)
+- **Remote Desktops** (Linux & Windows)  
   Use pre-installed software such as:
     - ESRI ArcGIS Desktop (ArcMap)
     - QGIS
@@ -78,12 +72,13 @@ Once logged in, you'll have access to a range of tools, including:
     - MATLAB
     - ... and more.
       
-- **Terminals**
-  Access command-line environments.
+- **Terminals**  
+  Access command-line environments
 
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/dashboard.png" alt="CUSP RCF dashboard" width="300">
 </p>
+
 Once you log in with your **CUSP ID and password**, you'll see the Dashboard interface (see image below). 
 
 <p align="center">
@@ -97,7 +92,8 @@ From there, simply click on one of the available options to:
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/dash_after_login.png" alt="Dashboard Main Session" width="300">
 </p>
-Below is an image of an **Ubuntu Remote Desktop** accessed through the **CUSP RCF Dashboard**.
+
+Below is an image of an **Ubuntu Remote Desktop** accessed through the **RCF Dashboard**.
 
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/ubuntu_session.png" alt="Dashboard Main Session" width="300">
@@ -109,18 +105,18 @@ From this desktop environment, you can:
 - Open **SSH sessions** to other RCF servers
 - Use **JupyterLab** on different RCF servers
 
-Below is an image of a **Windows Remote Desktop** accessed via the **CUSP RCF Dashboard**.
+Below is an image of a **Windows Remote Desktop** accessed via the **RCF Dashboard**.
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/windows_session.png" alt="Dashboard Main Session" width="300">
 </p>
+
 From this environment, users can:
 - Run available **Windows-based IDEs**
 - Use **Microsoft software** such as Word, Excel, and PowerPoint  
 - Launch **JupyterLab** 
 - **Map a network drive** to access your CUSP home folder and shared directories
 
-Below is an image of a **Ubuntu Terminal Session (CLI)** running on a `notebook` large server.  
-You can launch similar sessions on any of the other **RCF large servers**.
+Below is an image of a **Ubuntu Terminal Session (CLI)** running on a `notebook` large server. You can launch similar sessions on any of the other **RCF large servers**.
 
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/terminal_session.png" alt="Dashboard Main Session" width="300">
@@ -137,7 +133,9 @@ This command-line interface allows you to:
 
 ### CUSP JupyterHub Portal
 
-You can directly access **JupyterLab** via any of the three large servers below. These servers help distribute workloads and provide reliable performance. New to JupyterLab? Learn more in this [JupyterLab Tutorial](https://jupyterlab.readthedocs.io/en/latest/).
+You can directly access **JupyterLab** via any of the three large servers below. These servers help distribute workloads and provide reliable performance. 
+
+New to JupyterLab? Learn more in this [JupyterLab Tutorial](https://jupyterlab.readthedocs.io/en/latest/).
 
 Choose any of the following links to open in your browser and log in using your **Login credentials**:
 - [notebook1](https://notebook.cusp.nyu.edu/) 
@@ -173,7 +171,7 @@ To transfer large files, you can use the staging server with any secure transfer
 ```
 sftp  <YOUR_CUSP_ID>@staging.cusp.nyu.edu
 ```
-you will be prompted with the following
+You will be prompted with the following:
 ```
 sftp>
 ```
@@ -203,31 +201,31 @@ While there are system-wide kernels available, we recommend creating your own ke
 
 From a terminal window or after SSHing into the notebook server via the gateway mentioned in [Accessing the CUSP RCF Environment](#accessing-the-cusp-rcf-environment), follow these steps:
 
-A. SSH into the gateway server
+1. SSH into the gateway server
    ```
    ssh <YOUR_CUSP_ID>@gw.cusp.nyu.edu
    ```
 
-B. After entering your credentials, use one of the following commands to SSH into the internal servers:
+2. After entering your credentials, use one of the following commands to SSH into the internal servers:
   ```
 ssh notebook # Connect to the first server
 ssh notebook2 # Connect to the second server
 ssh notebook3 # Connect to the third server
   ```
 
-Step 1: Create a new conda environment (in this example, named `myenv` with Python version 3.10)
+3: Create a new conda environment (in this example, named `myenv` with Python version 3.10)
   ```
   conda create -n myenv python=3.10
   conda activate myenv
   ```
 
-Step 2: Install any packages you need. Below are some example package installations:
+4: Install any packages you need. Below are some example package installations:
   ```
   conda install pytorch torchvision torchaudio -c pytorch
   conda install -c huggingface transformers
   conda install -c conda-forge scikit-learn pandas
   ```
-Step 3: Install and activate ipykernel by running the following commands:
+5: Install and activate ipykernel by running the following commands:
   ```
   conda install -c conda-forge ipykernel
   python -m ipykernel install --user --name=myenv
@@ -275,4 +273,4 @@ The structure of the workspace folder is as follows:
     │   ├── output/            # Processed data for analysis.
     │   └── scripts/           # Working scripts intended to be shared with the team.
 ```
-Note : The tree structure above show a share folder with a subfolders, it is only a suggestion , Team can create their own structure 
+**Note:** The folder structure shown above is just a suggested layout. Teams are free to create and organize their own folder structure as needed.
