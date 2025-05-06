@@ -10,7 +10,9 @@ The CUSP RCF account enables access to resources including:
 * Analytical software such as MATLAB, RStudio, QGIS, Visual Studio Code (vscode) and others
 * Powerful computing resources (1TB of RAM and 500TB + of storage)
 * Personal home directories, temporary scratch directories, and project-specific workspaces  
-* Ability to request a customized Virtual Machine (VM) or physical for specific projects (subject to approval) 
+* Ability to request a customized Virtual Machine (VM) or physical for specific projects (subject to approval)
+
+  [Go to CUSP RCF Welcome page](https://serv.cusp.nyu.edu)
 
 
 ### About this document
