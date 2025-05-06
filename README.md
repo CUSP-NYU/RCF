@@ -78,7 +78,7 @@ Below is a pic showing a Ubuntu remote desktop within CUSP RCF dashboard from th
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/ubuntu_session.png" alt="Dashboard Main Session" width="300">
 </p>
-Below is a pic showing  a Windows remote desktop within CUSP RCF dashboard from there user can run available windows IDE GUI, Microsft softwares and jupyterlabs as well as  MAP a a CUSP homefolder etc..
+Below is a pic showing  a Windows remote desktop within CUSP RCF dashboard from there user can run available windows IDE GUIs, Microsoft softwares and jupyterlabs as well as  MAP a Network drive (CUSP homefolder) etc..
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/windows_session.png" alt="Dashboard Main Session" width="300">
 </p>
