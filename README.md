@@ -12,7 +12,7 @@ The CUSP RCF account enables access to resources including:
 * Personal home directories, temporary scratch directories, and project-specific workspaces  
 * Ability to request a customized Virtual Machine (VM) or physical for specific projects (subject to approval)
 
-  [Go to CUSP RCF Welcome page](https://serv.cusp.nyu.edu)
+  [Go Back to CUSP RCF Welcome page](https://serv.cusp.nyu.edu)
 
 
 ### About this document
