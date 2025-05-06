@@ -82,6 +82,10 @@ Below is a pic showing  a Windows remote desktop within CUSP RCF dashboard from 
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/windows_session.png" alt="Dashboard Main Session" width="300">
 </p>
+Below is a pic showing a Ubuntu terminal session (CLI) on a notebook large server (same can be done on all other RCF large servers), this will allow user to run codes , troubleshoot using CLI. 
+<p align="center">
+    <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/terminal_session.png" alt="Dashboard Main Session" width="300">
+</p>
 
 ### CUSP JupyterHub Portal
 
