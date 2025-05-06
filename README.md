@@ -63,7 +63,7 @@ or
 
 ### CUSP RCF Dashboard  
 
-The [CUSP RCF Portal](https://datahub.cusp.nyu.edu) is a one-stop shop for all things related to the RCF. Simply log in with your CUSP credentials.
+The [CUSP RCF Dashboard](https://datahub.cusp.nyu.edu) is a one-stop shop for all things related to the RCF. Simply log in with your CUSP credentials.
 
 From there, you can access all tools available to you, including terminals and remote desktops (Linux and Windows). On the remote desktops, you can use software GUI like ESRI ArcMap, QGIS, MS Office, MATLAB, and more.
 
