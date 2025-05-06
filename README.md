@@ -70,6 +70,12 @@ From there, you can access all tools available to you, including terminals and r
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/dashboard.png" alt="CUSP RCF dashboard" width="300">
 </p>
+Please see the pic after you login weith CUSP ID and Password 
+<p align="center">
+    <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/dash_after_login.png" alt="Dashboard Main Session" width="300">
+</p>
+
+
 
 ### CUSP JupyterHub Portal
 
