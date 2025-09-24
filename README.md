@@ -25,7 +25,7 @@ This document includes four sections containing information about:
    * [CUSP RCF Dashboard](#cusp-rcf-dashboard) 
    * [CUSP JupyterHub Portal](#jupyterlab-interface-file-upload)
  * [Data Transfer](#data-transfer)
- * [Project Workspace Structure](#project-workspace-structure)
+ * [Project Workspace Request and Structure](#project-workspace-structure)
 
   
 # Creating a Login Credential for the RCF Environment
@@ -249,7 +249,13 @@ To remove an environment:
   ```
 
 
-# Project Workspace Structure 
+# Project Workspace Request and  Structure 
+
+In order to be able to collaborate (sharing date, documents, codes etc..) on a project, Please provide cusp.it@nyu.edu with the following infomation 
+Project name  (in the format : project-<projet-name>)
+Project members CUSP_IDs if  members don't have CUSP_ID they can request them see above 
+Project short description and data size
+
 
 **project-cusp2024** is used as an example in the Green environment. The structure of the workspace is similar in the Yellow environment but with several layers of security, including a dedicated secure network and secure storage.
 
