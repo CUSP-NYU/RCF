@@ -251,7 +251,7 @@ To remove an environment:
 
 # Project Workspace Request and  Structure 
 
-In order to be able to collaborate (sharing date, documents, codes etc..) on a project, Please provide cusp.it@nyu.edu with the following infomation 
+In order to collaborate (sharing data, documents, codes etc..) on a project, Please provide cusp.it@nyu.edu with the following infomation 
 Project name  (in the format : project-<projet-name>)
 Project members CUSP_IDs if  members don't have CUSP_ID they can request them see above 
 Project short description and data size
