@@ -77,6 +77,20 @@ Once logged in, you'll have access to a range of tools, including:
 - **Terminals**  
   Access command-line environments
 
+  On the browser you will see the following interface:
+  How to Log In with Two-Factor Authentication (Quick Tutorial)
+Enter your username and password as usual.
+
+Choose your verification method:
+
+Authentication app (recommended)
+
+Retrieve the one-time code sent to your selected method.
+
+Enter the code on the verification screen to complete your login.
+
+
+
 <p align="center">
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/dashboard.png" alt="CUSP RCF dashboard" width="300">
 </p>
