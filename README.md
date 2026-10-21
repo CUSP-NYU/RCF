@@ -81,6 +81,10 @@ Once logged in, you'll have access to a range of tools, including:
     <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/dashboard.png" alt="CUSP RCF dashboard" width="300">
 </p>
 
+<p align="center">
+    <img src="https://github.com/CUSP-NYU/RCF/blob/main/images/2fa.png" alt="CUSP RCF dashboard" width="300">
+</p>
+
 Once you log in with your **CUSP ID and password**, you'll see the Dashboard interface (see image below). 
 
 <p align="center">
