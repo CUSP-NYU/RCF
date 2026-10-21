@@ -77,19 +77,19 @@ Once logged in, you'll have access to a range of tools, including:
 - **Terminals**  
   Access command-line environments
 
-  On the browser you will see the following interface:
+ - **On the browser you will see the following interface:**
   
   How to Log In with Two-Factor Authentication (Quick Tutorial)
 
-Enter your username and password as usual.
+1-Enter your username and password as usual.
 
-Choose your verification method:
+2-Choose your verification method:
 
-Authentication app (recommended)
+3-Authentication app (recommended)
 
-Retrieve the one-time code sent to your selected method.
+4-Retrieve the one-time code sent to your selected method.
 
-Enter the code on the verification screen to complete your login.
+5-Enter the code on the verification screen to complete your login.
 
 
 
