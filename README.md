@@ -78,7 +78,9 @@ Once logged in, you'll have access to a range of tools, including:
   Access command-line environments
 
   On the browser you will see the following interface:
+  
   How to Log In with Two-Factor Authentication (Quick Tutorial)
+
 Enter your username and password as usual.
 
 Choose your verification method:
