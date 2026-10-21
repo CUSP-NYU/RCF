@@ -277,13 +277,13 @@ Project member CUSP_IDs if  members don't have CUSP_ID they can request them see
 Project short description and data size
 
 
-**project-cusp2024** is used as an example in the Green environment. The structure of the workspace is similar in the Yellow environment but with several layers of security, including a dedicated secure network and secure storage.
+**project-cusp2026** is used as an example in the Green environment. The structure of the workspace is similar in the Yellow environment but with several layers of security, including a dedicated secure network and secure storage.
 
-The workspace dedicated to **project-cusp2024** is set up within the Restricted Green environment. It provides all functionalities and security features of the Green environment but can only be accessed by registered users affiliated with the research project.
+The workspace dedicated to **project-cusp2026** is set up within the Restricted Green environment. It provides all functionalities and security features of the Green environment but can only be accessed by registered users affiliated with the research project.
 
 The root directory to the project workspace is:
 ```
-/green-projects/project-2024/
+/green-projects/project-2026/
 ```
 
 The structure of the workspace folder is as follows:
